@@ -3,6 +3,8 @@
 2. Create a GITHUB REPOSITORY
     * go to github
     * Repositories > Create New Repository > first_git_project
+
+
 3. Create a new Commit for the First time
 ONLY ONCE    * git init
 EVERY TIME    * git add . (. means everything in the project)
@@ -14,6 +16,7 @@ ONLY ONCE    * git push -u origin main
     ****** Then your code should be pushed to github. REFRESH YOUR PAGE TO SEE THE CODE
 
 NOTE : git status --> This is our friend. This can be used anytime to see the progress
+
 
 4. Create a new SECOND COMMIT
     * Create a new class under first_git_package : MySecondClass
@@ -29,3 +32,15 @@ NOTE : git status --> This is our friend. This can be used anytime to see the pr
         * git add "src/main/java/first_git_package/MyFourthClass.java"
         * git commit -m "committing my fourth class"
         * git push
+
+
+6.  GIT PULL
+    * git pull is used to get the code from github
+    * git pull = git fetch + git merge
+        NOTE: if git pull throws error then use:
+        git fetch
+        git merge
+    * NOW THAT WE HAVE OUR LOCAL UPDATED, THEN COMMIT THE CODES AND PUSH ALL TOGETHER
+        * git add .
+        * git commit -m "commiting my codes"
+        *git push
