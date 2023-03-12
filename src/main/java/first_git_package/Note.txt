@@ -101,7 +101,7 @@ BRANCHING
 git branch -a -> show me all branch
 
 
-*git branch OR git branch -a -> Shows all branches. Default branch is the master branch
+*git branch OR git branch -a -> Shows all branches. Default branch is the master/main branch
 * git branch feature
 * git checkout feature
 * git branch -d feature
